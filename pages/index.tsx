@@ -1,6 +1,4 @@
 import { gql, useQuery } from "@apollo/client";
-import { AiOutlineCheckCircle, AiFillCheckCircle } from "react-icons/ai";
-import { BsFillTrash2Fill } from "react-icons/bs";
 import Image from "next/image";
 import { FC } from "react";
 
@@ -41,6 +39,7 @@ const AnimeCard: FC = () => {
       alt=""
       width={230}
       height={345}
+      className="mx-auto hover:scale-105"
     />
   );
 };
@@ -49,15 +48,14 @@ export default function Home() {
   return (
     <div className="p-4">
       <h1 className="text-4xl font-bold text-center">Aniquiz</h1>
-      <div
-        className="grid grid-cols-2 md:grid-cols-3 gap-4"
-        style={{ maxHeight: "400px" }}
-      >
-        <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
+      <div className="container flex flex-wrap mx-auto">
+        {
+          Array(6).fill(null).map((_, i) => (
+            <div className="md:w-1/3 p-4">
+              <AnimeCard key={i} />
+            </div>
+          ))
+        }
       </div>
     </div>
     // ヘッダーにサイトのタイトル「Aniquiz」を入れる
