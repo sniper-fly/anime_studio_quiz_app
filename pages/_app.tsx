@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import type { AppProps } from "next/app";
+import Layout from "../components/Layout";
 
 export const client = new ApolloClient({
   uri: "https://graphql.anilist.co",
@@ -10,7 +11,9 @@ export const client = new ApolloClient({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ApolloProvider client={client}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ApolloProvider>
   );
 }
