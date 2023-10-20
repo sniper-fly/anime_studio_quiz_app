@@ -1,0 +1,608 @@
+{
+  "data": {
+    "first": {
+      "studios": [
+        {
+          "isAnimationStudio": true,
+          "name": "Kyoto Animation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "MAPPA"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "MADHOUSE"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "ufotable"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "bones"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Wit Studio"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Shaft"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Ghibli"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "A-1 Pictures"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Trigger"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "CloverWorks"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Production I.G"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "White Fox"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "David Production"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "J.C. Staff"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Sunrise"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Gainax"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Toei Animation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Pierrot"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "P.A. Works"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "CoMix Wave"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Doga Kobo"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Bind"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Aniplex"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "SILVER LINK."
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Science SARU"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Lerche"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "TMS Entertainment"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Orange"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Funimation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio DEEN"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "8-bit"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Kinema Citrus"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Brain's Base"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "feel."
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "OLM"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Pink Pineapple"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Bunny Walker"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "KADOKAWA"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio 4°C"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "LIDENFILMS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Khara"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Crunchyroll"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Passione"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Manglobe"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "GONZO"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Chizu"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Xebec"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Sentai Filmworks"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Toho"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "NUT"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Satelight"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "TV Tokyo"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Colorido"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Square Enix"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Bandai Namco Pictures"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "TNK"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Nippon Animation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio 3Hz"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Mary Jane"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "T-Rex"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Key"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "project No.9"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "bilibili"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Cover Corp"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Shueisha"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "C2C"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "diomedéa"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Sanrio"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Viz Media"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "TROYCA"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "GoHands"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Tatsunoko Production"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Kodansha"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Seven"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Shin-Ei Animation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Artland"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "BUG FILMS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Seven Arcs"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "EGG FIRM"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Haoliners Animation"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Tokyo Movie Shinsha"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Tezuka Productions"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Aniplex of America"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Queen Bee"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Netflix"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Kadokawa Shoten"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Collaboration Works"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Nexus"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Shuka"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Animation Do"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "PoRO"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Gokumi"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Pony Canyon"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "An♥Tekinus"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Kadokawa Pictures Japan"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "CygamesPictures"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Hal Film Maker"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "POLYGON PICTURES"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "C-Station"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Geno Studio"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Telecom Animation Film"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Arms"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "AIC"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "PINE JAM"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Tencent Penguin Pictures"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Lantis"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Milky Animation Label"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "SANZIGEN"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Ajiado"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Line Webtoon"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Nitroplus"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "PoRO petit"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Asread"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Ponoc"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "FLAT STUDIO"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Majin petit"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Gallop"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Triangle Staff"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Zero-G"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Walt Disney Studios"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Fuji TV"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Bibury Animation Studios"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "MS Pictures"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Yostar Pictures"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "miHoYo"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "GEEKTOYS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Mushi Production"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "miHoYo Anime"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "B.CMAY PICTURES"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Actas"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "TBS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Hoods Entertainment"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "CONNECT"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Bandai Entertainment"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Bee Train"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Lune Pictures"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "ZEXCS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Maho Film"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Geidai Animation"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Warner Bros. Japan"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Production IMS"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Kamikaze Douga"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio Hibari"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio 1st"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Studio KAI"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Pashmina"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Suzuki Mirano"
+        },
+        {
+          "isAnimationStudio": false,
+          "name": "Twin Engine"
+        },
+        {
+          "isAnimationStudio": true,
+          "name": "Lay-duce"
+        }
+      ]
+    }
+  }
+}
