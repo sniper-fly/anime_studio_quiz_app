@@ -19,10 +19,10 @@ const QuizBoard: FC<Props> = (props) => {
         {Array(4)
           .fill(null)
           .map((_, i) => (
-            <div className="md:w-1/2 w-full p-4 hover:scale-105">
+            <div key={i} className="md:w-1/2 w-full p-4 hover:scale-105">
               <div
                 className="text-center bg-gray-200 rounded-lg p-8"
-                onClick={() => {props.handleClick()}}
+                onClick={props.handleClick}
               >
                 hoge
               </div>
