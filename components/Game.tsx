@@ -1,5 +1,32 @@
 import { FC, useState } from "react";
 import QuizBoard from "./QuizBoard";
+import {  useQuery } from "@apollo/client";
+import { gql } from "../graphql/gql";
+const TRENDING_ANIME = gql(/* GraphQL */ `
+  query TRENDING_ANIME {
+    Page(page: 1, perPage: 50) {
+      media(
+        season: FALL
+        seasonYear: 2023
+        type: ANIME
+        format: TV
+        sort: POPULARITY_DESC
+      ) {
+        title {
+          native
+        }
+        coverImage {
+          extraLarge
+        }
+        studios(isMain: true) {
+          nodes {
+            name
+          }
+        }
+      }
+    }
+  }
+`);
 
 const Game: FC = () => {
   const [point, setPoint] = useState(0);
