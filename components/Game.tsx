@@ -1,8 +1,8 @@
 import { FC, useState } from "react";
 import QuizBoard from "./QuizBoard";
-import { ApolloError, useQuery } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import { gql } from "../graphql/gql";
-import { Trending_AnimeQuery } from "@/graphql/graphql";
+import studioNamesJson from "../public/studio_names.json";
 
 function getRandomIndices(length: number, count: number): number[] {
   if (count > length) {
@@ -45,11 +45,18 @@ const TRENDING_ANIME = gql(/* GraphQL */ `
   }
 `);
 
-export interface AnimeQuiz {
+export interface Choice {
+  name: string;
+  isCorrect: boolean;
+}
+export interface AnimeStudioQuiz {
   title: string;
   coverImage: string;
-  studioName: string;
+  choices: Choice[];
 }
+
+// studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
+// それをChoicesの配列にして返す
 
 // data.Page.media[0].studios.nodes[0].name
 
@@ -71,20 +78,40 @@ const Game: FC = () => {
   const randomIndices = getRandomIndices(medium.length, 10);
   const selectedElements = randomIndices.map((index) => medium[index]);
 
-  const quizData: AnimeQuiz[] = selectedElements.map((element) => ({
-    title: element?.title?.native || "",
-    coverImage: element?.coverImage?.extraLarge || "",
-    studioName:
-      (element?.studios?.nodes && element.studios.nodes[0]?.name) || "",
-  }));
+  const quizData: AnimeStudioQuiz[] = selectedElements.map((element) => {
+    const name =
+      (element?.studios?.nodes && element.studios.nodes[0]?.name) || "";
+    const fakeChoiceData = studioNamesJson.filter(
+      (studioName) => studioName !== name
+    );
+    const randomIndices = getRandomIndices(fakeChoiceData.length, 3);
+    const threeChoices = randomIndices.map((index) => fakeChoiceData[index]);
+    const fakeChoices = threeChoices.map((choice) => ({
+      name: choice,
+      isCorrect: false,
+    }));
+    return {
+      title: element?.title?.native || "",
+      coverImage: element?.coverImage?.extraLarge || "",
+      choices: [
+        {
+          name: name,
+          isCorrect: true,
+        },
+        ...fakeChoices,
+      ].sort(() => Math.random() - 0.5),
+    };
+  });
 
   // ポイントの加算判定、問題数の加算、問題の切り替え
-  const handleClick = () => {
+  const handleClick = (idx: number) => {
     if (questionNum > 10) {
       return;
     }
     // ポイントを加算
-    setPoint(point + 10);
+    if (quizData[questionNum - 1].choices[idx].isCorrect) {
+      setPoint(point + 10);
+    }
     // 問題数を加算
     setQuestionNum(questionNum + 1);
   };
@@ -98,7 +125,11 @@ const Game: FC = () => {
           {Math.min(questionNum, 10)} / 10
         </div>
       </div>
-      <QuizBoard handleClick={handleClick} questionNum={questionNum} quiz={quizData[questionNum - 1]}/>
+      <QuizBoard
+        handleClick={handleClick}
+        questionNum={questionNum}
+        quiz={quizData[questionNum - 1]}
+      />
     </>
   );
 };

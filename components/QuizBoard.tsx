@@ -1,11 +1,11 @@
 import { FC } from "react";
-import { AnimeQuiz } from "./Game";
+import { AnimeStudioQuiz } from "./Game";
 import Image from "next/image";
 
 type Props = {
-  handleClick: () => void;
+  handleClick: (idx: number) => void;
   questionNum: number;
-  quiz: AnimeQuiz;
+  quiz: AnimeStudioQuiz;
 };
 
 const QuizBoard: FC<Props> = (props) => {
@@ -20,8 +20,8 @@ const QuizBoard: FC<Props> = (props) => {
           <Image
             src={props.quiz.coverImage}
             alt=""
-            width={400}
-            height={600}
+            width={300}
+            height={500}
             className="mx-auto"
           />
           <div className="text-center font-medium text-lg mt-2">
@@ -30,18 +30,19 @@ const QuizBoard: FC<Props> = (props) => {
         </div>
       </div>
       <div className="container mx-auto flex flex-wrap">
-        {Array(4)
-          .fill(null)
-          .map((_, i) => (
+        {
+          // ここでprops.quiz.choicesの中身を表示する
+          props.quiz.choices.map((choice, i) => (
             <div key={i} className="md:w-1/2 w-full p-4 hover:scale-105">
               <div
                 className="text-center bg-gray-200 rounded-lg p-8"
-                onClick={props.handleClick}
+                onClick={() => {props.handleClick(i)}}
               >
-                hoge
+                {choice.name}
               </div>
             </div>
-          ))}
+          ))
+        }
       </div>
     </>
   );
