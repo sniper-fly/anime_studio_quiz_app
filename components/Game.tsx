@@ -60,6 +60,35 @@ export interface AnimeStudioQuiz {
 
 // data.Page.media[0].studios.nodes[0].name
 
+const useQuizData = () => {
+  const { loading, error, data } = useQuery(TRENDING_ANIME);
+
+  if (loading || error) {
+    return {
+      loading,
+      error,
+      data,
+    };
+  }
+
+  const medium = data && data?.Page?.media;
+  if (!medium) {
+    return {
+      loading,
+      error,
+      data: undefined,
+    };
+  }
+
+  const randomIndices = getRandomIndices(medium.length, 10);
+  const quizData = randomIndices.map((index) => medium[index]);
+  return {
+    loading,
+    error,
+    data: quizData,
+  };
+};
+
 const Game: FC = () => {
   const [point, setPoint] = useState(0);
   const [questionNum, setQuestionNum] = useState(1);
@@ -67,18 +96,19 @@ const Game: FC = () => {
   // アニメ情報を50件ぐらい取得
   // そこからランダムに10件選ぶ
 
-  const { loading, error, data } = useQuery(TRENDING_ANIME);
+  const { loading, error, data } = useQuizData();
 
   if (loading) return "loading"; // other loading UI component
   if (error) return error.message; // other error UI component
+  if (!data) return "no anime data"; // other error UI component
 
-  const medium = data && data?.Page?.media;
-  if (!medium) return "no anime data"; // other error UI component
+  // const medium = data && data?.Page?.media;
+  // if (!medium) return "no anime data"; // other error UI component
 
-  const randomIndices = getRandomIndices(medium.length, 10);
-  const selectedElements = randomIndices.map((index) => medium[index]);
+  // const randomIndices = getRandomIndices(medium.length, 10);
+  // const selectedElements = randomIndices.map((index) => medium[index]);
 
-  const quizData: AnimeStudioQuiz[] = selectedElements.map((element) => {
+  const quizData: AnimeStudioQuiz[] = data.map((element) => {
     const name =
       (element?.studios?.nodes && element.studios.nodes[0]?.name) || "";
     const fakeChoiceData = studioNamesJson.filter(
