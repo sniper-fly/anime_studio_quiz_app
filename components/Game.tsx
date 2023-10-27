@@ -67,7 +67,7 @@ const useQuizData = () => {
     return {
       loading,
       error,
-      data,
+      data: undefined,
     };
   }
 
@@ -92,21 +92,11 @@ const useQuizData = () => {
 const Game: FC = () => {
   const [point, setPoint] = useState(0);
   const [questionNum, setQuestionNum] = useState(1);
-  // 制作会社の情報を50件取得(こっちはどこかに保存しておいても良い)
-  // アニメ情報を50件ぐらい取得
-  // そこからランダムに10件選ぶ
-
   const { loading, error, data } = useQuizData();
 
   if (loading) return "loading"; // other loading UI component
   if (error) return error.message; // other error UI component
   if (!data) return "no anime data"; // other error UI component
-
-  // const medium = data && data?.Page?.media;
-  // if (!medium) return "no anime data"; // other error UI component
-
-  // const randomIndices = getRandomIndices(medium.length, 10);
-  // const selectedElements = randomIndices.map((index) => medium[index]);
 
   const quizData: AnimeStudioQuiz[] = data.map((element) => {
     const name =
