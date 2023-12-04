@@ -3,6 +3,7 @@ import GameBoard from "./GameBoard";
 import { useQuery } from "@apollo/client";
 import { gql } from "../graphql/gql";
 import studioNamesJson from "../public/studio_names.json";
+import Loading from "./Loading";
 
 const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
@@ -69,7 +70,7 @@ const Game: FC = () => {
   // const { loading, error, data } = useQuizData();
   const { loading, error, data } = useQuery(TRENDING_ANIME);
 
-  if (loading) return "loading"; // other loading UI component
+  if (loading) return <Loading />;
   if (error) return error.message; // other error UI component
   const medium = data?.Page?.media;
   if (!medium) return "no data"; // other no data UI component
