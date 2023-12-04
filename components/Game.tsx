@@ -58,47 +58,24 @@ export interface AnimeStudioQuiz {
 // studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
 // それをChoicesの配列にして返す
 
-// data.Page.media[0].studios.nodes[0].name
-
-const useQuizData = () => {
-  const { loading, error, data } = useQuery(TRENDING_ANIME);
-
-  if (loading || error) {
-    return {
-      loading,
-      error,
-      data: undefined,
-    };
-  }
-
-  const medium = data && data?.Page?.media;
-  if (!medium) {
-    return {
-      loading,
-      error,
-      data: undefined,
-    };
-  }
-
-  const randomIndices = getRandomIndices(medium.length, 10);
-  const quizData = randomIndices.map((index) => medium[index]);
-  return {
-    loading,
-    error,
-    data: quizData,
-  };
-};
-
 // stateが変わると再度Graphqlのクエリが走ってしまうので、
 // クエリ結果のみをGameコンポーネントで保持するようにする
 const Game: FC = () => {
-  const { loading, error, data } = useQuizData();
+  // const { loading, error, data } = useQuizData();
+  const { loading, error, data } = useQuery(TRENDING_ANIME);
 
   if (loading) return "loading"; // other loading UI component
   if (error) return error.message; // other error UI component
-  if (!data) return "no anime data"; // other error UI component
+  const medium = data?.Page?.media;
+  if (!medium) return "no data"; // other no data UI component
 
-  const quizData: AnimeStudioQuiz[] = data.map((element) => {
+  const selectedMedium = getRandomIndices(medium.length, 10).map(
+    (index) => medium[index]
+  );
+
+  const quizData: AnimeStudioQuiz[] = selectedMedium.map((element) => {
+    // element.studios.nodesが複数存在する可能性があるので、
+    // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
     const name =
       (element?.studios?.nodes && element.studios.nodes[0]?.name) || "";
     const fakeChoiceData = studioNamesJson.filter(
