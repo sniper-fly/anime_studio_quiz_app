@@ -9,6 +9,7 @@ type Props = {
 const GameBoard: FC<Props> = (props) => {
   const [point, setPoint] = useState(0);
   const [questionNum, setQuestionNum] = useState(1);
+  const [chosenIndices, setChosenIndices] = useState<number[]>([]);
 
   // ポイントの加算判定、問題数の加算、問題の切り替え
   const handleClick = (idx: number) => {
@@ -21,6 +22,8 @@ const GameBoard: FC<Props> = (props) => {
     }
     // 問題数を加算
     setQuestionNum(questionNum + 1);
+
+    setChosenIndices([...chosenIndices, idx])
   };
 
   return (

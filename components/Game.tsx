@@ -91,7 +91,6 @@ const Game: FC = () => {
           },
           ...fakeChoices,
         ].sort(() => Math.random() - 0.5),
-        chosenIdx: -1,
       };
     }
   );

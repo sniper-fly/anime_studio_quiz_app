@@ -7,5 +7,4 @@ export interface AnimeStudioQuiz {
   title: string;
   coverImage: string;
   choices: Choice[];
-  chosenIdx: number; // default to -1
 }
