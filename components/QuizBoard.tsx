@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { AnimeStudioQuiz } from "./Game";
 import Image from "next/image";
+import SelectionBoard from "./SelectionBoard";
 
 type Props = {
   handleClick: (idx: number) => void;
@@ -10,7 +11,7 @@ type Props = {
 
 const QuizBoard: FC<Props> = (props) => {
   if (props.questionNum > 10) {
-    return "終了"
+    return "終了";
   }
 
   return (
@@ -29,21 +30,7 @@ const QuizBoard: FC<Props> = (props) => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex flex-wrap">
-        {
-          // ここでprops.quiz.choicesの中身を表示する
-          props.quiz.choices.map((choice, i) => (
-            <div key={i} className="md:w-1/2 w-full p-4 hover:scale-105">
-              <div
-                className="text-center bg-gray-200 rounded-lg p-8"
-                onClick={() => {props.handleClick(i)}}
-              >
-                {choice.name}
-              </div>
-            </div>
-          ))
-        }
-      </div>
+      <SelectionBoard handleClick={props.handleClick} quiz={props.quiz} />
     </>
   );
 };

@@ -34,14 +34,15 @@ const GameBoard: FC<Props> = (props) => {
   };
 
   return (
+    // ポイントと問題数を表示
     <>
-      {/* ポイントと問題数を表示 */}
       <div className="md:flex-row flex-col container flex mx-auto border-b border-gray-200 p-2">
         <div className="md:ml-5 mx-auto text-3xl">Total {point}pt</div>
         <div className="md:ml-auto md:mr-0 mx-auto text-3xl">
           {Math.min(questionNum, 10)} / 10
         </div>
       </div>
+
       <QuizBoard
         handleClick={handleClick}
         questionNum={questionNum}
