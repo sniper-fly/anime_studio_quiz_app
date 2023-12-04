@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { AnimeStudioQuiz } from "./Game";
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz"
 import Image from "next/image";
 import SelectionBoard from "./SelectionBoard";
 

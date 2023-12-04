@@ -4,6 +4,7 @@ import { useQuery } from "@apollo/client";
 import { gql } from "../graphql/gql";
 import studioNamesJson from "../public/studio_names.json";
 import Loading from "./Loading";
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 
 const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
@@ -51,16 +52,6 @@ const TRENDING_ANIME = gql(/* GraphQL */ `
   }
 `);
 
-export interface Choice {
-  name: string;
-  isCorrect: boolean;
-}
-export interface AnimeStudioQuiz {
-  title: string;
-  coverImage: string;
-  choices: Choice[];
-}
-
 // studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
 // それをChoicesの配列にして返す
 
@@ -100,6 +91,7 @@ const Game: FC = () => {
           },
           ...fakeChoices,
         ].sort(() => Math.random() - 0.5),
+        chosenIdx: -1,
       };
     }
   );

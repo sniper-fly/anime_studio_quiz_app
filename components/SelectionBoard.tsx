@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { AnimeStudioQuiz } from "./Game";
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz"
 
 type Props = {
   handleClick: (idx: number) => void;

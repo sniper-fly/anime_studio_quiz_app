@@ -1,20 +1,10 @@
 import { FC, useState } from "react";
 import QuizBoard from "./QuizBoard";
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 
 type Props = {
   quizzes: AnimeStudioQuiz[];
 };
-
-export interface Choice {
-  name: string;
-  isCorrect: boolean;
-}
-
-export interface AnimeStudioQuiz {
-  title: string;
-  coverImage: string;
-  choices: Choice[];
-}
 
 const GameBoard: FC<Props> = (props) => {
   const [point, setPoint] = useState(0);
@@ -50,6 +40,6 @@ const GameBoard: FC<Props> = (props) => {
       />
     </>
   );
-}
+};
 
 export default GameBoard;
