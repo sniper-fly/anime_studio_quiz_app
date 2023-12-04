@@ -76,11 +76,12 @@ const Game: FC = () => {
   const quizData: AnimeStudioQuiz[] = selectedMedium.map((element) => {
     // element.studios.nodesが複数存在する可能性があるので、
     // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
-    const name =
-      (element?.studios?.nodes && element.studios.nodes[0]?.name) || "";
+    const names = (element?.studios?.nodes &&
+      element.studios.nodes.map((e) => e?.name)) || ["-"];
     const fakeChoiceData = studioNamesJson.filter(
-      (studioName) => studioName !== name
+      (studioName) => !names.includes(studioName)
     );
+
     const randomIndices = getRandomIndices(fakeChoiceData.length, 3);
     const threeChoices = randomIndices.map((index) => fakeChoiceData[index]);
     const fakeChoices = threeChoices.map((choice) => ({
@@ -88,11 +89,11 @@ const Game: FC = () => {
       isCorrect: false,
     }));
     return {
-      title: element?.title?.native || "",
-      coverImage: element?.coverImage?.extraLarge || "",
+      title: element?.title?.native ?? "-",
+      coverImage: element?.coverImage?.extraLarge ?? "-",
       choices: [
         {
-          name: name,
+          name: names[0] ?? "-",
           isCorrect: true,
         },
         ...fakeChoices,
