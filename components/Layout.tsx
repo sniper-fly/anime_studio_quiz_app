@@ -8,7 +8,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <div className="p-4 border-b border-gray-200">
-        <h1 className="text-4xl font-bold text-center">Aniquiz</h1>
+        <h1 className="text-4xl font-bold text-center">Which animation studio made this?</h1>
       </div>
       <main>{children}</main>
     </>
