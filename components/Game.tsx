@@ -19,6 +19,11 @@ const randomIndices = (length: number, count: number): number[] => {
   return allIndices.slice(0, count);
 };
 
+// 配列からランダムにnum個選ぶ
+function narrowRandom<T>(array: T[], num: number): T[] {
+  return randomIndices(array.length, num).map((index) => array[index]);
+}
+
 const TRENDING_ANIME = gql(/* GraphQL */ `
   query TRENDING_ANIME {
     Page(page: 1, perPage: 50) {
@@ -69,38 +74,34 @@ const Game: FC = () => {
   const medium = data?.Page?.media;
   if (!medium) return "no data"; // other no data UI component
 
-  const selectedMedium = randomIndices(medium.length, 10).map(
-    (index) => medium[index]
+  const quizData: AnimeStudioQuiz[] = narrowRandom(medium, 10).map(
+    (element) => {
+      const correctNames = (element?.studios?.nodes &&
+        element.studios.nodes.map((e) => e?.name)) || ["-"];
+      // element.studios.nodesが複数存在する可能性があるので、
+      // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
+      const fakeChoiceData = studioNamesJson.filter(
+        (studioName) => !correctNames.includes(studioName)
+      );
+      // 3つの選択肢をランダムに選び、isCorrectをfalseにして追加
+      const fakeChoices = narrowRandom(fakeChoiceData, 3).map((choice) => ({
+        name: choice,
+        isCorrect: false,
+      }));
+
+      return {
+        title: element?.title?.native ?? "-",
+        coverImage: element?.coverImage?.extraLarge ?? "-",
+        choices: [
+          {
+            name: correctNames[0] ?? "-",
+            isCorrect: true,
+          },
+          ...fakeChoices,
+        ].sort(() => Math.random() - 0.5),
+      };
+    }
   );
-
-  const quizData: AnimeStudioQuiz[] = selectedMedium.map((element) => {
-    // element.studios.nodesが複数存在する可能性があるので、
-    // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
-    const names = (element?.studios?.nodes &&
-      element.studios.nodes.map((e) => e?.name)) || ["-"];
-    const fakeChoiceData = studioNamesJson.filter(
-      (studioName) => !names.includes(studioName)
-    );
-
-    const threeChoices = randomIndices(fakeChoiceData.length, 3).map(
-      (index) => fakeChoiceData[index]
-    );
-    const fakeChoices = threeChoices.map((choice) => ({
-      name: choice,
-      isCorrect: false,
-    }));
-    return {
-      title: element?.title?.native ?? "-",
-      coverImage: element?.coverImage?.extraLarge ?? "-",
-      choices: [
-        {
-          name: names[0] ?? "-",
-          isCorrect: true,
-        },
-        ...fakeChoices,
-      ].sort(() => Math.random() - 0.5),
-    };
-  });
 
   return <GameBoard quizzes={quizData} />;
 };
