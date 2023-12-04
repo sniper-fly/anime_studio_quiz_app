@@ -29,3 +29,12 @@ tapしたら次の問題に進めるようにする（スマホ意識）
 選んだ選択肢を振り返られるようにしておく
 
 得点をTwitterでシェアできるようにする
+
+- 出題範囲の選択
+airing anime
+ユーザーid指定
+favorite TOP100
+upcoming next season
+
+- マンガ編
+原作者の名前を当てる
