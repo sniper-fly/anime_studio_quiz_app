@@ -4,7 +4,7 @@ import { useQuery } from "@apollo/client";
 import { gql } from "../graphql/gql";
 import studioNamesJson from "../public/studio_names.json";
 
-function getRandomIndices(length: number, count: number): number[] {
+const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
     throw new Error("count must be less than or equal to length");
   }
@@ -17,7 +17,7 @@ function getRandomIndices(length: number, count: number): number[] {
   }
   // 最初のcount個を選択
   return allIndices.slice(0, count);
-}
+};
 
 const TRENDING_ANIME = gql(/* GraphQL */ `
   query TRENDING_ANIME {
@@ -69,7 +69,7 @@ const Game: FC = () => {
   const medium = data?.Page?.media;
   if (!medium) return "no data"; // other no data UI component
 
-  const selectedMedium = getRandomIndices(medium.length, 10).map(
+  const selectedMedium = randomIndices(medium.length, 10).map(
     (index) => medium[index]
   );
 
@@ -82,8 +82,9 @@ const Game: FC = () => {
       (studioName) => !names.includes(studioName)
     );
 
-    const randomIndices = getRandomIndices(fakeChoiceData.length, 3);
-    const threeChoices = randomIndices.map((index) => fakeChoiceData[index]);
+    const threeChoices = randomIndices(fakeChoiceData.length, 3).map(
+      (index) => fakeChoiceData[index]
+    );
     const fakeChoices = threeChoices.map((choice) => ({
       name: choice,
       isCorrect: false,
