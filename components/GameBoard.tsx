@@ -10,20 +10,39 @@ const GameBoard: FC<Props> = (props) => {
   const [point, setPoint] = useState(0);
   const [questionNum, setQuestionNum] = useState(1);
   const [chosenIndices, setChosenIndices] = useState<number[]>([]);
+  // 解答前、解答後の選択肢の色を変えるためのstate
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
 
   // ポイントの加算判定、問題数の加算、問題の切り替え
   const handleClick = (idx: number) => {
     if (questionNum > 10) {
       return;
     }
-    // ポイントを加算
-    if (props.quizzes[questionNum - 1].choices[idx].isCorrect) {
-      setPoint(point + 10);
-    }
-    // 問題数を加算
-    setQuestionNum(questionNum + 1);
 
-    setChosenIndices([...chosenIndices, idx])
+    const terminate = () => {
+      setIsAnswered(false);
+      setQuestionNum(questionNum + 1);
+    };
+
+    if (isAnswered) {
+      if (timerId) {
+        clearTimeout(timerId);
+        setTimerId(null);
+      }
+      terminate();
+    } else {
+      setIsAnswered(true);
+      setChosenIndices([...chosenIndices, idx]);
+      // ポイントを加算
+      if (props.quizzes[questionNum - 1].choices[idx].isCorrect) {
+        setPoint(point + 10);
+      }
+      const id = setTimeout(() => {
+        terminate();
+      }, 1200);
+      setTimerId(id);
+    }
   };
 
   return (
@@ -40,6 +59,7 @@ const GameBoard: FC<Props> = (props) => {
         handleClick={handleClick}
         questionNum={questionNum}
         quiz={props.quizzes[questionNum - 1]}
+        isAnswered={isAnswered}
       />
     </>
   );

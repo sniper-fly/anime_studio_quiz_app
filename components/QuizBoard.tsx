@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz"
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 import Image from "next/image";
 import SelectionBoard from "./SelectionBoard";
 
@@ -7,6 +7,7 @@ type Props = {
   handleClick: (idx: number) => void;
   questionNum: number;
   quiz: AnimeStudioQuiz;
+  isAnswered: boolean;
 };
 
 const QuizBoard: FC<Props> = (props) => {
@@ -17,6 +18,8 @@ const QuizBoard: FC<Props> = (props) => {
   return (
     <>
       <div className="container flex mx-auto border-b border-gray-200 py-3">
+        {/* Imageを囲うdivのサイズを固定すれば、画像のサイズが変わっても
+        画像の位置がずれない */}
         <div className="mx-auto">
           <Image
             src={props.quiz.coverImage}
@@ -30,7 +33,11 @@ const QuizBoard: FC<Props> = (props) => {
           </div>
         </div>
       </div>
-      <SelectionBoard handleClick={props.handleClick} quiz={props.quiz} />
+      <SelectionBoard
+        handleClick={props.handleClick}
+        quiz={props.quiz}
+        isAnswered={props.isAnswered}
+      />
     </>
   );
 };
