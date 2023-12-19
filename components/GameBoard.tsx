@@ -20,7 +20,7 @@ const GameBoard: FC<Props> = (props) => {
       return;
     }
 
-    const terminate = () => {
+    const goNext = () => {
       setIsAnswered(false);
       setQuestionNum(questionNum + 1);
     };
@@ -30,7 +30,7 @@ const GameBoard: FC<Props> = (props) => {
         clearTimeout(timerId);
         setTimerId(null);
       }
-      terminate();
+      goNext();
     } else {
       setIsAnswered(true);
       setChosenIndices([...chosenIndices, idx]);
@@ -38,9 +38,7 @@ const GameBoard: FC<Props> = (props) => {
       if (props.quizzes[questionNum - 1].choices[idx].isCorrect) {
         setPoint(point + 10);
       }
-      const id = setTimeout(() => {
-        terminate();
-      }, 1200);
+      const id = setTimeout(goNext, 1200);
       setTimerId(id);
     }
   };
