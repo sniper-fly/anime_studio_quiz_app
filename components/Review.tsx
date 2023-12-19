@@ -10,9 +10,9 @@ type Props = {
 
 const Review: FC<Props> = (props) => {
   return (
-    <div className="">
+    <>
+      <h1 className="text-2xl text-center font-bold my-3">Your Score</h1>
       {props.quizzes.map((quiz, i) => (
-        // <>
         <div className="flex p-12">
           <div key={i} className="w-1/4">
             <Image
@@ -35,9 +35,8 @@ const Review: FC<Props> = (props) => {
             />
           </div>
         </div>
-        // </>
       ))}
-    </div>
+    </>
   );
 };
 
