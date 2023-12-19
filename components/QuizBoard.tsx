@@ -16,8 +16,8 @@ const QuizBoard: FC<Props> = (props) => {
   // current quiz
   const quiz = props.quizzes[props.questionNum - 1];
 
-  // if (props.questionNum > 10) {
-  if (true) {
+  if (props.questionNum > 10) {
+  // if (true) {
     return (
       <Review quizzes={props.quizzes} chosenIndices={props.chosenIndices} />
     );
@@ -45,6 +45,7 @@ const QuizBoard: FC<Props> = (props) => {
         handleClick={props.handleClick}
         quiz={quiz}
         isAnswered={props.isAnswered}
+        chosenIndex={props.chosenIndices[props.questionNum - 1]}
       />
     </>
   );

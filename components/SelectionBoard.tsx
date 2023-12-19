@@ -1,10 +1,12 @@
 import { FC } from "react";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
+import IconCheckCircle from "./svg/IconCheckCircle";
 
 type Props = {
   handleClick: (idx: number) => void;
   quiz: AnimeStudioQuiz;
   isAnswered: boolean;
+  chosenIndex: number;
 };
 
 const SelectionBoard: FC<Props> = (props) => {
@@ -34,6 +36,9 @@ const SelectionBoard: FC<Props> = (props) => {
             className={selectionClassName(choice.isCorrect)}
             onClick={() => handleClick(i)}
           >
+            {/* もし isAnswered が true なら、
+            chosenIndexの選択肢にsvgを表示する */}
+            {props.isAnswered && props.chosenIndex === i && <IconCheckCircle />}
             {choice.name}
           </div>
         </div>

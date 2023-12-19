@@ -27,6 +27,7 @@ const Review: FC<Props> = (props) => {
             handleClick={() => { /* do nothing */ }}
             quiz={quiz}
             isAnswered={true}
+            chosenIndex={props.chosenIndices[i]}
           />
         </>
       ))}
