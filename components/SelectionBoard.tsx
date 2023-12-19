@@ -29,7 +29,7 @@ const SelectionBoard: FC<Props> = (props) => {
 
   // ここでprops.quiz.choicesの中身を表示する
   return (
-    <div className="container mx-auto flex flex-wrap">
+    <>
       {props.quiz.choices.map((choice, i) => (
         <div key={i} className="md:w-1/2 w-full p-4 hover:scale-105">
           <div
@@ -43,7 +43,7 @@ const SelectionBoard: FC<Props> = (props) => {
           </div>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

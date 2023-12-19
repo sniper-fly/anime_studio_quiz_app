@@ -17,7 +17,7 @@ const QuizBoard: FC<Props> = (props) => {
   const quiz = props.quizzes[props.questionNum - 1];
 
   if (props.questionNum > 10) {
-  // if (true) {
+    // if (true) {
     return (
       <Review quizzes={props.quizzes} chosenIndices={props.chosenIndices} />
     );
@@ -41,12 +41,15 @@ const QuizBoard: FC<Props> = (props) => {
           </div>
         </div>
       </div>
-      <SelectionBoard
-        handleClick={props.handleClick}
-        quiz={quiz}
-        isAnswered={props.isAnswered}
-        chosenIndex={props.chosenIndices[props.questionNum - 1]}
-      />
+
+      <div className="container mx-auto flex flex-wrap">
+        <SelectionBoard
+          handleClick={props.handleClick}
+          quiz={quiz}
+          isAnswered={props.isAnswered}
+          chosenIndex={props.chosenIndices[props.questionNum - 1]}
+        />
+      </div>
     </>
   );
 };

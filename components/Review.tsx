@@ -10,9 +10,10 @@ type Props = {
 
 const Review: FC<Props> = (props) => {
   return (
-    <div className="flex flex-wrap justify-around p-10">
+    <div className="">
       {props.quizzes.map((quiz, i) => (
-        <>
+        // <>
+        <div className="flex p-12">
           <div key={i} className="w-1/4">
             <Image
               src={quiz.coverImage}
@@ -23,13 +24,18 @@ const Review: FC<Props> = (props) => {
             />
             {quiz.title}
           </div>
-          <SelectionBoard
-            handleClick={() => { /* do nothing */ }}
-            quiz={quiz}
-            isAnswered={true}
-            chosenIndex={props.chosenIndices[i]}
-          />
-        </>
+          <div className="w-3/4 ml-5 flex flex-wrap items-center">
+            <SelectionBoard
+              handleClick={() => {
+                /* do nothing */
+              }}
+              quiz={quiz}
+              isAnswered={true}
+              chosenIndex={props.chosenIndices[i]}
+            />
+          </div>
+        </div>
+        // </>
       ))}
     </div>
   );
