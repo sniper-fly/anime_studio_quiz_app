@@ -16,7 +16,8 @@ const QuizBoard: FC<Props> = (props) => {
   // current quiz
   const quiz = props.quizzes[props.questionNum - 1];
 
-  if (props.questionNum > 10) {
+  // if (props.questionNum > 10) {
+  if (true) {
     return (
       <Review quizzes={props.quizzes} chosenIndices={props.chosenIndices} />
     );

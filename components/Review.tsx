@@ -1,5 +1,7 @@
 import { FC } from "react";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
+import Image from "next/image";
+import SelectionBoard from "./SelectionBoard";
 
 type Props = {
   quizzes: AnimeStudioQuiz[];
@@ -8,10 +10,28 @@ type Props = {
 
 const Review: FC<Props> = (props) => {
   return (
-    <div>
-      hoge
+    <div className="flex flex-wrap justify-around p-10">
+      {props.quizzes.map((quiz, i) => (
+        <>
+          <div key={i} className="w-1/4">
+            <Image
+              src={quiz.coverImage}
+              alt=""
+              width={300}
+              height={500}
+              className="mx-auto"
+            />
+            {quiz.title}
+          </div>
+          <SelectionBoard
+            handleClick={() => { /* do nothing */ }}
+            quiz={quiz}
+            isAnswered={true}
+          />
+        </>
+      ))}
     </div>
-  )
-}
+  );
+};
 
 export default Review;
