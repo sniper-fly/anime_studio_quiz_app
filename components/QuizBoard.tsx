@@ -2,17 +2,21 @@ import { FC } from "react";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 import Image from "next/image";
 import SelectionBoard from "./SelectionBoard";
+import Review from "./Review";
 
 type Props = {
   handleClick: (idx: number) => void;
   questionNum: number;
-  quiz: AnimeStudioQuiz;
+  quiz: AnimeStudioQuiz[];
   isAnswered: boolean;
 };
 
 const QuizBoard: FC<Props> = (props) => {
+  // current quiz
+  const quiz = props.quiz[props.questionNum - 1];
+
   if (props.questionNum > 10) {
-    return "終了";
+    return <Review />;
   }
 
   return (
@@ -22,20 +26,20 @@ const QuizBoard: FC<Props> = (props) => {
         画像の位置がずれない */}
         <div className="mx-auto">
           <Image
-            src={props.quiz.coverImage}
+            src={quiz.coverImage}
             alt=""
             width={300}
             height={500}
             className="mx-auto"
           />
           <div className="text-center font-medium text-lg mt-2">
-            {props.quiz.title}
+            {quiz.title}
           </div>
         </div>
       </div>
       <SelectionBoard
         handleClick={props.handleClick}
-        quiz={props.quiz}
+        quiz={quiz}
         isAnswered={props.isAnswered}
       />
     </>
