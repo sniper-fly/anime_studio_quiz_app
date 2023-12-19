@@ -7,16 +7,19 @@ import Review from "./Review";
 type Props = {
   handleClick: (idx: number) => void;
   questionNum: number;
-  quiz: AnimeStudioQuiz[];
+  quizzes: AnimeStudioQuiz[];
   isAnswered: boolean;
+  chosenIndices: number[];
 };
 
 const QuizBoard: FC<Props> = (props) => {
   // current quiz
-  const quiz = props.quiz[props.questionNum - 1];
+  const quiz = props.quizzes[props.questionNum - 1];
 
   if (props.questionNum > 10) {
-    return <Review />;
+    return (
+      <Review quizzes={props.quizzes} chosenIndices={props.chosenIndices} />
+    );
   }
 
   return (

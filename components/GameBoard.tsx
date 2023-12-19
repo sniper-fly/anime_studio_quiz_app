@@ -56,8 +56,9 @@ const GameBoard: FC<Props> = (props) => {
       <QuizBoard
         handleClick={handleClick}
         questionNum={questionNum}
-        quiz={props.quizzes}
+        quizzes={props.quizzes}
         isAnswered={isAnswered}
+        chosenIndices={chosenIndices}
       />
     </>
   );

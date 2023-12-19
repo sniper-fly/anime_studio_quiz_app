@@ -1,6 +1,12 @@
 import { FC } from "react";
+import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 
-const Review: FC = () => {
+type Props = {
+  quizzes: AnimeStudioQuiz[];
+  chosenIndices: number[];
+};
+
+const Review: FC<Props> = (props) => {
   return (
     <div>
       hoge
