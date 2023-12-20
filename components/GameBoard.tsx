@@ -1,6 +1,12 @@
 import { FC, useState } from "react";
 import QuizBoard from "./QuizBoard";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
+import useSound from "use-sound";
+
+// @ts-ignore
+import atariSound from "../public/sound/atari.mp3";
+// @ts-ignore
+import hazureSound from "../public/sound/hazure.mp3";
 
 type Props = {
   quizzes: AnimeStudioQuiz[];
@@ -13,6 +19,8 @@ const GameBoard: FC<Props> = (props) => {
   // 解答前、解答後の選択肢の色を変えるためのstate
   const [isAnswered, setIsAnswered] = useState(false);
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+  const [playAtari] = useSound(atariSound);
+  const [playHazure] = useSound(hazureSound);
 
   // ポイントの加算判定、問題数の加算、問題の切り替え
   const handleClick = (idx: number) => {
@@ -37,6 +45,9 @@ const GameBoard: FC<Props> = (props) => {
       // ポイントを加算
       if (props.quizzes[questionNum - 1].choices[idx].isCorrect) {
         setPoint(point + 10);
+        playAtari();
+      } else {
+        playHazure();
       }
       const id = setTimeout(goNext, 1200);
       setTimerId(id);
