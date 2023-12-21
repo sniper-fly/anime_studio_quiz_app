@@ -7,7 +7,7 @@ export default function Home() {
       {/* 出題範囲選択画面を表示する */}
       <SelectRange />
       {/* 出題範囲が選択されたら、Gameコンポーネントを表示する */}
-      { false && <Game />}
+      { true && <Game />}
     </>
   );
 }

@@ -5,6 +5,7 @@ import { SEASON_ANIME } from "../graphql/queries";
 import studioNamesJson from "../public/studio_names.json";
 import Loading from "./Loading";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
+import { MediaSeason } from "@/graphql/generates/graphql";
 
 const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
@@ -32,8 +33,9 @@ function narrowRandom<T>(array: T[], num: number): T[] {
 // stateが変わると再度Graphqlのクエリが走ってしまうので、
 // クエリ結果のみをGameコンポーネントで保持するようにする
 const Game: FC = () => {
-  // const { loading, error, data } = useQuizData();
-  const { loading, error, data } = useQuery(SEASON_ANIME);
+  const { loading, error, data } = useQuery(SEASON_ANIME, {
+    variables: { season: MediaSeason.Fall, seasonYear: 2023 },
+  });
 
   if (loading) return <Loading />;
   if (error) return error.message; // other error UI component

@@ -1,11 +1,11 @@
-import { gql } from "./generates/gql"
+import { gql } from "./generates/gql";
 
 export const SEASON_ANIME = gql(/* GraphQL */ `
-  query SEASON_ANIME {
+  query SEASON_ANIME($season: MediaSeason!, $seasonYear: Int!) {
     Page(page: 1, perPage: 50) {
       media(
-        season: FALL
-        seasonYear: 2023
+        season: $season
+        seasonYear: $seasonYear
         type: ANIME
         format: TV
         sort: POPULARITY_DESC
