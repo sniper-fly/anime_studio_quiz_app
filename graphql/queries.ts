@@ -46,28 +46,26 @@ export const ALL_TIME_POPULAR = gql(/* GraphQL */ `
   }
 `);
 
-// export const USER_LISTS = gql(/* GraphQL */ `
-//   query USER_LISTS($userName: String!) {
-//     {
-//       MediaListCollection(userName: $userName, type: ANIME) {
-//         lists {
-//           entries {
-//             media {
-//               title {
-//                 native
-//               }
-//               coverImage {
-//                 extraLarge
-//               }
-//               studios(isMain: true) {
-//                 nodes {
-//                   name
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `);
+export const USER_LISTS = gql(/* GraphQL */ `
+  query USER_LISTS($userName: String!) {
+    MediaListCollection(userName: $userName, type: ANIME) {
+      lists {
+        entries {
+          media {
+            title {
+              native
+            }
+            coverImage {
+              extraLarge
+            }
+            studios(isMain: true) {
+              nodes {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`);
