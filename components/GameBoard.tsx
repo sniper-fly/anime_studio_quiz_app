@@ -19,6 +19,8 @@ const GameBoard: FC<Props> = (props) => {
   // 解答前、解答後の選択肢の色を変えるためのstate
   const [isAnswered, setIsAnswered] = useState(false);
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+
+  // 音声の再生
   const [playAtari] = useSound(atariSound);
   const [playHazure] = useSound(hazureSound);
 
