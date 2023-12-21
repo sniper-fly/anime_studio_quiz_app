@@ -27,6 +27,21 @@ function narrowRandom<T>(array: T[], num: number): T[] {
   return randomIndices(array.length, num).map((index) => array[index]);
 }
 
+const currentSeason = (): MediaSeason => {
+  // JavaScriptのDateオブジェクトのgetMonth()は0から始まるため、+1する
+  const currentMonth = new Date().getMonth() + 1;
+
+  if (currentMonth >= 1 && currentMonth <= 3) {
+    return MediaSeason.Winter;
+  } else if (currentMonth >= 4 && currentMonth <= 6) {
+    return MediaSeason.Spring;
+  } else if (currentMonth >= 7 && currentMonth <= 9) {
+    return MediaSeason.Summer;
+  } else {
+    return MediaSeason.Fall;
+  }
+};
+
 // studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
 // それをChoicesの配列にして返す
 
@@ -34,7 +49,10 @@ function narrowRandom<T>(array: T[], num: number): T[] {
 // クエリ結果のみをGameコンポーネントで保持するようにする
 const Game: FC = () => {
   const { loading, error, data } = useQuery(SEASON_ANIME, {
-    variables: { season: MediaSeason.Fall, seasonYear: 2023 },
+    variables: {
+      season: currentSeason(),
+      seasonYear: new Date().getFullYear(),
+    },
   });
 
   if (loading) return <Loading />;
