@@ -1,7 +1,7 @@
 import { FC } from "react";
 import GameBoard from "./GameBoard";
 import { useQuery } from "@apollo/client";
-import { gql } from "../graphql/gql";
+import { SEASON_ANIME } from "../graphql/queries";
 import studioNamesJson from "../public/studio_names.json";
 import Loading from "./Loading";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
@@ -25,32 +25,6 @@ const randomIndices = (length: number, count: number): number[] => {
 function narrowRandom<T>(array: T[], num: number): T[] {
   return randomIndices(array.length, num).map((index) => array[index]);
 }
-
-const SEASON_ANIME = gql(/* GraphQL */ `
-  query SEASON_ANIME {
-    Page(page: 1, perPage: 50) {
-      media(
-        season: FALL
-        seasonYear: 2023
-        type: ANIME
-        format: TV
-        sort: POPULARITY_DESC
-      ) {
-        title {
-          native
-        }
-        coverImage {
-          extraLarge
-        }
-        studios(isMain: true) {
-          nodes {
-            name
-          }
-        }
-      }
-    }
-  }
-`);
 
 // studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
 // それをChoicesの配列にして返す
