@@ -9,8 +9,8 @@ const SelectRange: FC = () => {
       </div>
       <div>This Season</div>
       <div>Upcoming Next Season</div>
-      <div>Upcoming Next Season</div>
-      <div>Top 100 ANIME</div>
+      <div>All-Time Popular</div>
+      <div>Choose Season</div>
     </>
   );
 };
