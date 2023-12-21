@@ -1,4 +1,4 @@
-import { gql } from "../graphql/gql";
+import { gql } from "./generates/gql"
 
 export const SEASON_ANIME = gql(/* GraphQL */ `
   query SEASON_ANIME {
