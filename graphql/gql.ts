@@ -13,7 +13,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  * Therefore it is highly recommended to use the babel or swc plugin for production.
  */
 const documents = {
-    "\n  query TRENDING_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n": types.Trending_AnimeDocument,
+    "\n  query SEASON_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n": types.Season_AnimeDocument,
 };
 
 /**
@@ -33,7 +33,7 @@ export function gql(source: string): unknown;
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  query TRENDING_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n"): (typeof documents)["\n  query TRENDING_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n"];
+export function gql(source: "\n  query SEASON_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n"): (typeof documents)["\n  query SEASON_ANIME {\n    Page(page: 1, perPage: 50) {\n      media(\n        season: FALL\n        seasonYear: 2023\n        type: ANIME\n        format: TV\n        sort: POPULARITY_DESC\n      ) {\n        title {\n          native\n        }\n        coverImage {\n          extraLarge\n        }\n        studios(isMain: true) {\n          nodes {\n            name\n          }\n        }\n      }\n    }\n  }\n"];
 
 export function gql(source: string) {
   return (documents as any)[source] ?? {};

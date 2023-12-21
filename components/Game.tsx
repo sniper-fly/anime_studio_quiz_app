@@ -26,8 +26,8 @@ function narrowRandom<T>(array: T[], num: number): T[] {
   return randomIndices(array.length, num).map((index) => array[index]);
 }
 
-const TRENDING_ANIME = gql(/* GraphQL */ `
-  query TRENDING_ANIME {
+const SEASON_ANIME = gql(/* GraphQL */ `
+  query SEASON_ANIME {
     Page(page: 1, perPage: 50) {
       media(
         season: FALL
@@ -59,7 +59,7 @@ const TRENDING_ANIME = gql(/* GraphQL */ `
 // クエリ結果のみをGameコンポーネントで保持するようにする
 const Game: FC = () => {
   // const { loading, error, data } = useQuizData();
-  const { loading, error, data } = useQuery(TRENDING_ANIME);
+  const { loading, error, data } = useQuery(SEASON_ANIME);
 
   if (loading) return <Loading />;
   if (error) return error.message; // other error UI component

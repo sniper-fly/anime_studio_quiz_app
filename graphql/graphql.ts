@@ -2155,6 +2155,8 @@ export enum ModRole {
   Admin = 'ADMIN',
   /** An anime data moderator */
   AnimeData = 'ANIME_DATA',
+  /** A character data moderator */
+  CharacterData = 'CHARACTER_DATA',
   /** A community moderator */
   Community = 'COMMUNITY',
   /** An AniList developer */
@@ -2176,7 +2178,9 @@ export enum ModRole {
   /** A retired moderator */
   Retired = 'RETIRED',
   /** A social media moderator */
-  SocialMedia = 'SOCIAL_MEDIA'
+  SocialMedia = 'SOCIAL_MEDIA',
+  /** A staff data moderator */
+  StaffData = 'STAFF_DATA'
 }
 
 export type Mutation = {
@@ -4670,10 +4674,10 @@ export type YearStats = {
   year?: Maybe<Scalars['Int']['output']>;
 };
 
-export type Trending_AnimeQueryVariables = Exact<{ [key: string]: never; }>;
+export type Season_AnimeQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type Trending_AnimeQuery = { __typename?: 'Query', Page?: { __typename?: 'Page', media?: Array<{ __typename?: 'Media', title?: { __typename?: 'MediaTitle', native?: string | null } | null, coverImage?: { __typename?: 'MediaCoverImage', extraLarge?: string | null } | null, studios?: { __typename?: 'StudioConnection', nodes?: Array<{ __typename?: 'Studio', name: string } | null> | null } | null } | null> | null } | null };
+export type Season_AnimeQuery = { __typename?: 'Query', Page?: { __typename?: 'Page', media?: Array<{ __typename?: 'Media', title?: { __typename?: 'MediaTitle', native?: string | null } | null, coverImage?: { __typename?: 'MediaCoverImage', extraLarge?: string | null } | null, studios?: { __typename?: 'StudioConnection', nodes?: Array<{ __typename?: 'Studio', name: string } | null> | null } | null } | null> | null } | null };
 
 
-export const Trending_AnimeDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"TRENDING_ANIME"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"Page"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"page"},"value":{"kind":"IntValue","value":"1"}},{"kind":"Argument","name":{"kind":"Name","value":"perPage"},"value":{"kind":"IntValue","value":"50"}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"media"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"season"},"value":{"kind":"EnumValue","value":"FALL"}},{"kind":"Argument","name":{"kind":"Name","value":"seasonYear"},"value":{"kind":"IntValue","value":"2023"}},{"kind":"Argument","name":{"kind":"Name","value":"type"},"value":{"kind":"EnumValue","value":"ANIME"}},{"kind":"Argument","name":{"kind":"Name","value":"format"},"value":{"kind":"EnumValue","value":"TV"}},{"kind":"Argument","name":{"kind":"Name","value":"sort"},"value":{"kind":"EnumValue","value":"POPULARITY_DESC"}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"native"}}]}},{"kind":"Field","name":{"kind":"Name","value":"coverImage"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"extraLarge"}}]}},{"kind":"Field","name":{"kind":"Name","value":"studios"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"isMain"},"value":{"kind":"BooleanValue","value":true}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"nodes"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<Trending_AnimeQuery, Trending_AnimeQueryVariables>;
+export const Season_AnimeDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"SEASON_ANIME"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"Page"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"page"},"value":{"kind":"IntValue","value":"1"}},{"kind":"Argument","name":{"kind":"Name","value":"perPage"},"value":{"kind":"IntValue","value":"50"}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"media"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"season"},"value":{"kind":"EnumValue","value":"FALL"}},{"kind":"Argument","name":{"kind":"Name","value":"seasonYear"},"value":{"kind":"IntValue","value":"2023"}},{"kind":"Argument","name":{"kind":"Name","value":"type"},"value":{"kind":"EnumValue","value":"ANIME"}},{"kind":"Argument","name":{"kind":"Name","value":"format"},"value":{"kind":"EnumValue","value":"TV"}},{"kind":"Argument","name":{"kind":"Name","value":"sort"},"value":{"kind":"EnumValue","value":"POPULARITY_DESC"}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"native"}}]}},{"kind":"Field","name":{"kind":"Name","value":"coverImage"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"extraLarge"}}]}},{"kind":"Field","name":{"kind":"Name","value":"studios"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"isMain"},"value":{"kind":"BooleanValue","value":true}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"nodes"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<Season_AnimeQuery, Season_AnimeQueryVariables>;
