@@ -6,6 +6,7 @@ import studioNamesJson from "../public/studio_names.json";
 import Loading from "./Loading";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 import { MediaSeason } from "@/graphql/generates/graphql";
+import { Medium } from "@/types/Medium";
 
 const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
@@ -42,6 +43,36 @@ const currentSeason = (): MediaSeason => {
   }
 };
 
+const genQuizData = (medium: Medium): AnimeStudioQuiz[] => {
+  return narrowRandom(medium, 10).map((element) => {
+    const correctNames = (element?.studios?.nodes &&
+      element.studios.nodes.map((e) => e?.name)) || ["-"];
+    // element.studios.nodesが複数存在する可能性があるので、
+    // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
+    const fakeChoiceData = studioNamesJson.filter(
+      (studioName) => !correctNames.includes(studioName)
+    );
+    // 3つの選択肢をランダムに選び、isCorrectをfalseにして追加
+    const fakeChoices = narrowRandom(fakeChoiceData, 3).map((choice) => ({
+      name: choice,
+      isCorrect: false,
+    }));
+
+    return {
+      title: element?.title?.native ?? "-",
+      coverImage: element?.coverImage?.extraLarge ?? "-",
+      choices: [
+        {
+          // 複数のスタジオが関わっている可能性があるので、その中からランダムに1つ選ぶ
+          name: narrowRandom(correctNames, 1)[0] ?? "-",
+          isCorrect: true,
+        },
+        ...fakeChoices,
+      ].sort(() => Math.random() - 0.5),
+    };
+  });
+};
+
 // studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
 // それをChoicesの配列にして返す
 
@@ -57,38 +88,10 @@ const Game: FC = () => {
 
   if (loading) return <Loading />;
   if (error) return error.message; // other error UI component
-  const medium = data?.Page?.media;
+  const medium: Medium | null | undefined = data?.Page?.media;
   if (!medium) return "no data"; // other no data UI component
 
-  const quizData: AnimeStudioQuiz[] = narrowRandom(medium, 10).map(
-    (element) => {
-      const correctNames = (element?.studios?.nodes &&
-        element.studios.nodes.map((e) => e?.name)) || ["-"];
-      // element.studios.nodesが複数存在する可能性があるので、
-      // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
-      const fakeChoiceData = studioNamesJson.filter(
-        (studioName) => !correctNames.includes(studioName)
-      );
-      // 3つの選択肢をランダムに選び、isCorrectをfalseにして追加
-      const fakeChoices = narrowRandom(fakeChoiceData, 3).map((choice) => ({
-        name: choice,
-        isCorrect: false,
-      }));
-
-      return {
-        title: element?.title?.native ?? "-",
-        coverImage: element?.coverImage?.extraLarge ?? "-",
-        choices: [
-          {
-            name: correctNames[0] ?? "-",
-            isCorrect: true,
-          },
-          ...fakeChoices,
-        ].sort(() => Math.random() - 0.5),
-      };
-    }
-  );
-
+  const quizData = genQuizData(medium);
   return <GameBoard quizzes={quizData} />;
 };
 
