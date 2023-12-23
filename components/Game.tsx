@@ -1,12 +1,11 @@
 import { FC } from "react";
 import GameBoard from "./GameBoard";
 import { useQuery } from "@apollo/client";
-import { SEASON_ANIME } from "../graphql/queries";
 import studioNamesJson from "../public/studio_names.json";
 import Loading from "./Loading";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
-import { MediaSeason } from "@/graphql/generates/graphql";
 import { Medium } from "@/types/Medium";
+import { GameProps } from "@/types/GameProps";
 
 const randomIndices = (length: number, count: number): number[] => {
   if (count > length) {
@@ -28,23 +27,11 @@ function narrowRandom<T>(array: T[], num: number): T[] {
   return randomIndices(array.length, num).map((index) => array[index]);
 }
 
-const currentSeason = (): MediaSeason => {
-  // JavaScriptのDateオブジェクトのgetMonth()は0から始まるため、+1する
-  const currentMonth = new Date().getMonth() + 1;
-
-  if (currentMonth >= 1 && currentMonth <= 3) {
-    return MediaSeason.Winter;
-  } else if (currentMonth >= 4 && currentMonth <= 6) {
-    return MediaSeason.Spring;
-  } else if (currentMonth >= 7 && currentMonth <= 9) {
-    return MediaSeason.Summer;
-  } else {
-    return MediaSeason.Fall;
-  }
-};
-
-const genQuizData = (medium: Medium): AnimeStudioQuiz[] => {
-  return narrowRandom(medium, 10).map((element) => {
+const genQuizData = (
+  medium: Medium,
+  quizNum: number = 10
+): AnimeStudioQuiz[] => {
+  return narrowRandom(medium, quizNum).map((element) => {
     const correctNames = (element?.studios?.nodes &&
       element.studios.nodes.map((e) => e?.name)) || ["-"];
     // element.studios.nodesが複数存在する可能性があるので、
@@ -73,22 +60,14 @@ const genQuizData = (medium: Medium): AnimeStudioQuiz[] => {
   });
 };
 
-// studio_names.jsonから、nameと一致しないもののなかからランダムに3つ選ぶ。
-// それをChoicesの配列にして返す
-
 // stateが変わると再度Graphqlのクエリが走ってしまうので、
 // クエリ結果のみをGameコンポーネントで保持するようにする
-const Game: FC = () => {
-  const { loading, error, data } = useQuery(SEASON_ANIME, {
-    variables: {
-      season: currentSeason(),
-      seasonYear: new Date().getFullYear(),
-    },
-  });
+const Game: FC<GameProps> = ({ query, queryParams, extractMedium }) => {
+  const { loading, error, data } = useQuery(query, queryParams);
 
   if (loading) return <Loading />;
   if (error) return error.message; // other error UI component
-  const medium: Medium | null | undefined = data?.Page?.media;
+  const medium: Medium | null | undefined = extractMedium(data);
   if (!medium) return "no data"; // other no data UI component
 
   const quizData = genQuizData(medium);
