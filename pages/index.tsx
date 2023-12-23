@@ -1,13 +1,22 @@
 import Game from "../components/Game";
 import SelectRange from "@/components/SelectRange";
+import { useState } from "react";
+import { GameProps } from "@/types/GameProps";
+import { useImmer } from "use-immer";
 
 export default function Home() {
-  return (
-    <>
-      {/* 出題範囲選択画面を表示する */}
-      <SelectRange />
-      {/* 出題範囲が選択されたら、Gameコンポーネントを表示する */}
-      { true && <Game />}
-    </>
-  );
+  const [gameMode, setGameMode] = useState<string>("selectingTopic");
+  const [gameProps, updateGameProps] = useImmer<GameProps>({
+    query: undefined,
+    queryParams: undefined,
+    extractMedium: () => undefined,
+  });
+
+  if (gameMode === "selectingTopic") {
+    return (
+      <SelectRange setGameMode={setGameMode} updateGameProps={updateGameProps} />
+    );
+  } else if (gameMode === "playing") {
+    return <Game {...gameProps} />;
+  }
 }
