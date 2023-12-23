@@ -1,5 +1,5 @@
 import { ALL_TIME_POPULAR, SEASON_ANIME, USER_LISTS } from "@/graphql/queries";
-import { FC, ReactNode, useState } from "react";
+import { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
 import { MediaSeason, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
 
@@ -21,7 +21,7 @@ type TopicCardProps = {
   children?: ReactNode;
   setSelectedCardId: (cardId: string) => void;
   gameProps: GameProps;
-  updateGameProps: (gameProps: GameProps) => void;
+  setGameProps: Dispatch<SetStateAction<GameProps>>;
 };
 
 const TopicCard: FC<TopicCardProps> = (props) => {
@@ -32,8 +32,8 @@ const TopicCard: FC<TopicCardProps> = (props) => {
   return (
     <button
       onClick={() => {
-        props.setSelectedCardId(props.cardId)
-        props.updateGameProps(props.gameProps)
+        props.setSelectedCardId(props.cardId);
+        props.setGameProps(props.gameProps);
       }}
       className={
         choicesClassName +
@@ -48,7 +48,7 @@ const TopicCard: FC<TopicCardProps> = (props) => {
 
 type SelectRangeProps = {
   setGameMode: (gameMode: string) => void;
-  updateGameProps: (gameProps: GameProps) => void;
+  setGameProps: Dispatch<SetStateAction<GameProps>>;
 };
 
 const SelectRange: FC<SelectRangeProps> = (props) => {
@@ -76,7 +76,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
             );
           },
         }}
-        updateGameProps={props.updateGameProps}
+        setGameProps={props.setGameProps}
       >
         <input
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 mx-auto p-2.5"
@@ -98,7 +98,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           },
           extractMedium: (data) => data?.Page?.media,
         }}
-        updateGameProps={props.updateGameProps}
+        setGameProps={props.setGameProps}
       />
 
       <TopicCard
@@ -115,7 +115,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           },
           extractMedium: (data) => data?.Page?.media,
         }}
-        updateGameProps={props.updateGameProps}
+        setGameProps={props.setGameProps}
       />
 
       <TopicCard
@@ -126,7 +126,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           query: ALL_TIME_POPULAR,
           extractMedium: (data) => data?.Page?.media,
         }}
-        updateGameProps={props.updateGameProps}
+        setGameProps={props.setGameProps}
       />
 
       <TopicCard
@@ -137,7 +137,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           query: SEASON_ANIME,
           extractMedium: (data) => data?.Page?.media,
         }}
-        updateGameProps={props.updateGameProps}
+        setGameProps={props.setGameProps}
       >
         <div className="flex">
           <select
@@ -146,6 +146,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
             defaultValue={selectedCardId === "" ? now.getFullYear() : undefined}
             onChange={(e) => {
               const year = e.target.value;
+              props.setGameProps();
             }}
           >
             {/* 1950から現在の年+1までの連続した整数を生成 */}
@@ -160,6 +161,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 m-2"
             onChange={(e) => {
               const season = e.target.value;
+              props.setGameProps();
             }}
           >
             <option>Winter</option>
