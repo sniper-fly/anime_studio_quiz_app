@@ -3,7 +3,14 @@ import { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
 import { MediaSeason, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
 
-const findMediaSeason = (month: number): MediaSeason => {
+const diffMonth = (date: Date, diffMonth: number): Date => {
+  const resultDate = new Date();
+  resultDate.setMonth(date.getMonth() + diffMonth);
+  return resultDate;
+};
+
+const findMediaSeason = (date: Date): MediaSeason => {
+  const month = date.getMonth() + 1;
   if (month >= 1 && month <= 3) {
     return MediaSeason.Winter;
   } else if (month >= 4 && month <= 6) {
@@ -92,7 +99,7 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           query: SEASON_ANIME,
           queryParams: {
             variables: {
-              season: findMediaSeason(now.getMonth() + 1),
+              season: findMediaSeason(now),
               seasonYear: now.getFullYear(),
             },
           },
@@ -109,8 +116,8 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           query: SEASON_ANIME,
           queryParams: {
             variables: {
-              season: findMediaSeason(now.getMonth() + 1 + 3),
-              seasonYear: now.getFullYear(),
+              season: findMediaSeason(diffMonth(now, +3)),
+              seasonYear: diffMonth(now, +3).getFullYear(),
             },
           },
           extractMedium: (data) => data?.Page?.media,
@@ -135,6 +142,12 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
         setSelectedCardId={setSelectedCardId}
         gameProps={{
           query: SEASON_ANIME,
+          queryParams: {
+            variables: {
+              season: findMediaSeason(now),
+              seasonYear: now.getFullYear(),
+            },
+          },
           extractMedium: (data) => data?.Page?.media,
         }}
         setGameProps={props.setGameProps}
