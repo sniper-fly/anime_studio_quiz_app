@@ -185,10 +185,10 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
               setChosenDate(new Date(year, month, 1));
             }}
           >
-            <option value="1">Winter</option>
-            <option value="4">Spring</option>
-            <option value="7">Summer</option>
-            <option value="10">Fall</option>
+            <option value="1">Winter (1 ~ 3)</option>
+            <option value="4">Spring (4 ~ 6)</option>
+            <option value="7">Summer (7 ~ 9)</option>
+            <option value="10">Fall (10 ~ 12)</option>
           </select>
         </div>
       </TopicCard>
