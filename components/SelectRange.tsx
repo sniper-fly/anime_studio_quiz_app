@@ -4,7 +4,7 @@ import { MediaSeason, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
 
 const diffMonth = (date: Date, diffMonth: number): Date => {
-  const resultDate = new Date();
+  const resultDate = date;
   resultDate.setMonth(date.getMonth() + diffMonth);
   return resultDate;
 };
@@ -28,7 +28,7 @@ type TopicCardProps = {
   children?: ReactNode;
   setSelectedCardId: (cardId: string) => void;
   gameProps: GameProps;
-  setGameProps: Dispatch<SetStateAction<GameProps>>;
+  setGameProps?: Dispatch<SetStateAction<GameProps>>;
 };
 
 const TopicCard: FC<TopicCardProps> = (props) => {
@@ -40,7 +40,7 @@ const TopicCard: FC<TopicCardProps> = (props) => {
     <button
       onClick={() => {
         props.setSelectedCardId(props.cardId);
-        props.setGameProps(props.gameProps);
+        props.setGameProps && props.setGameProps(props.gameProps);
       }}
       className={
         choicesClassName +
@@ -60,6 +60,7 @@ type SelectRangeProps = {
 
 const SelectRange: FC<SelectRangeProps> = (props) => {
   const [selectedCardId, setSelectedCardId] = useState<string>("");
+  const [chosenDate, setChosenDate] = useState<Date>(new Date());
   const now = new Date();
 
   return (
@@ -144,8 +145,8 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           query: SEASON_ANIME,
           queryParams: {
             variables: {
-              season: findMediaSeason(now),
-              seasonYear: now.getFullYear(),
+              season: findMediaSeason(chosenDate),
+              seasonYear: chosenDate.getFullYear(),
             },
           },
           extractMedium: (data) => data?.Page?.media,
@@ -156,10 +157,11 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           <select
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 m-2"
             // 未選択状態の時に現在年を選択する
-            defaultValue={selectedCardId === "" ? now.getFullYear() : undefined}
+            defaultValue={chosenDate.getFullYear()}
             onChange={(e) => {
-              const year = e.target.value;
-              props.setGameProps();
+              const year = parseInt(e.target.value);
+              const month = chosenDate.getMonth();
+              setChosenDate(new Date(year, month, 1));
             }}
           >
             {/* 1950から現在の年+1までの連続した整数を生成 */}
@@ -173,14 +175,15 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
           <select
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 m-2"
             onChange={(e) => {
-              const season = e.target.value;
-              props.setGameProps();
+              const year = chosenDate.getFullYear();
+              const month = parseInt(e.target.value);
+              setChosenDate(new Date(year, month, 1));
             }}
           >
-            <option>Winter</option>
-            <option>Spring</option>
-            <option>Summer</option>
-            <option>Fall</option>
+            <option value="1">Winter</option>
+            <option value="4">Spring</option>
+            <option value="7">Summer</option>
+            <option value="10">Fall</option>
           </select>
         </div>
       </TopicCard>
