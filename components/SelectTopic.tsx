@@ -28,7 +28,7 @@ type TopicCardProps = {
   children?: ReactNode;
   setSelectedCardId: (cardId: string) => void;
   gameProps: GameProps;
-  setGameProps?: Dispatch<SetStateAction<GameProps>>;
+  setGameProps: Dispatch<SetStateAction<GameProps>>;
 };
 
 const TopicCard: FC<TopicCardProps> = (props) => {
@@ -40,7 +40,7 @@ const TopicCard: FC<TopicCardProps> = (props) => {
     <button
       onClick={() => {
         props.setSelectedCardId(props.cardId);
-        props.setGameProps && props.setGameProps(props.gameProps);
+        props.setGameProps(props.gameProps);
       }}
       className={
         choicesClassName +
@@ -73,11 +73,6 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
         setSelectedCardId={setSelectedCardId}
         gameProps={{
           query: USER_LISTS,
-          queryParams: {
-            variables: {
-              userName: "", // ここに入力されたユーザー名を入れる
-            },
-          },
           extractMedium: (data: User_ListsQuery) => {
             return data?.MediaListCollection?.lists?.flatMap((list) =>
               list?.entries?.map((entry) => entry?.media)
@@ -89,6 +84,16 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
         <input
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 mx-auto p-2.5"
           placeholder="Your Anilist Username"
+          onChange={(e) => {
+            props.setGameProps((prev) => ({
+              ...prev,
+              queryParams: {
+                variables: {
+                  userName: e.target.value,
+                },
+              },
+            }));
+          }}
         />
       </TopicCard>
 
