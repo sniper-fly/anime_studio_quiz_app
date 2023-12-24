@@ -31,7 +31,12 @@ const genQuizData = (
   medium: Medium,
   quizNum: number = 10
 ): AnimeStudioQuiz[] => {
-  return narrowRandom(medium, quizNum).map((element) => {
+  // nodesが空の要素を除外
+  const medium_with_studio = medium.filter(
+    (element) => element?.studios?.nodes?.length
+  );
+
+  return narrowRandom(medium_with_studio, quizNum).map((element) => {
     const correctNames = (element?.studios?.nodes &&
       element.studios.nodes.map((e) => e?.name)) || ["-"];
     // element.studios.nodesが複数存在する可能性があるので、
