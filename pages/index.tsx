@@ -1,5 +1,5 @@
 import Game from "../components/Game";
-import SelectRange from "@/components/SelectRange";
+import SelectTopic from "@/components/SelectTopic";
 import { useState } from "react";
 import { GameProps } from "@/types/GameProps";
 
@@ -12,7 +12,7 @@ export default function Home() {
 
   if (gameMode === "selectingTopic") {
     return (
-      <SelectRange setGameMode={setGameMode} setGameProps={setGameProps} />
+      <SelectTopic setGameMode={setGameMode} setGameProps={setGameProps} />
     );
   } else if (gameMode === "playing") {
     return <Game {...gameProps} />;

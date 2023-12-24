@@ -53,12 +53,12 @@ const TopicCard: FC<TopicCardProps> = (props) => {
   );
 };
 
-type SelectRangeProps = {
+type SelectTopicProps = {
   setGameMode: (gameMode: string) => void;
   setGameProps: Dispatch<SetStateAction<GameProps>>;
 };
 
-const SelectRange: FC<SelectRangeProps> = (props) => {
+const SelectTopic: FC<SelectTopicProps> = (props) => {
   const [selectedCardId, setSelectedCardId] = useState<string>("");
   const [chosenDate, setChosenDate] = useState<Date>(new Date());
   const now = new Date();
@@ -202,4 +202,4 @@ const SelectRange: FC<SelectRangeProps> = (props) => {
   );
 };
 
-export default SelectRange;
+export default SelectTopic;
