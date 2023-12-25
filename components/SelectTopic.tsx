@@ -2,6 +2,7 @@ import { ALL_TIME_POPULAR, SEASON_ANIME, USER_LISTS } from "@/graphql/queries";
 import { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
 import { MediaSeason, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
+import { Medium } from "@/types/Medium";
 
 const diffMonth = (date: Date, diffMonth: number): Date => {
   const resultDate = date;
@@ -76,7 +77,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
           extractMedium: (data: User_ListsQuery) => {
             return data?.MediaListCollection?.lists?.flatMap((list) =>
               list?.entries?.map((entry) => entry?.media)
-            );
+            ) as Medium;
           },
         }}
         setGameProps={props.setGameProps}
