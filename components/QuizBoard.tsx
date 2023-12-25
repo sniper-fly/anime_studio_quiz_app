@@ -13,11 +13,9 @@ type Props = {
 };
 
 const QuizBoard: FC<Props> = (props) => {
-  // current quiz
   const quiz = props.quizzes[props.questionNum - 1];
 
   if (props.questionNum > 10) {
-    // if (true) {
     return (
       <Review quizzes={props.quizzes} chosenIndices={props.chosenIndices} />
     );
@@ -25,21 +23,17 @@ const QuizBoard: FC<Props> = (props) => {
 
   return (
     <>
-      <div className="container flex mx-auto border-b border-gray-200 py-3">
-        {/* Imageを囲うdivのサイズを固定すれば、画像のサイズが変わっても
-        画像の位置がずれない */}
-        <div className="mx-auto">
+      <div className="container flex flex-col mx-auto border-b border-gray-200 py-3">
+        <div className="mx-auto h-96 w-80 relative">
           <Image
+            key={quiz.title}
             src={quiz.coverImage}
-            alt=""
-            width={300}
-            height={500}
-            className="mx-auto"
+            alt="Anime Cover Image"
+            fill
+            className="object-contain"
           />
-          <div className="text-center font-medium text-lg mt-2">
-            {quiz.title}
-          </div>
         </div>
+        <div className="text-center font-medium text-lg mt-2">{quiz.title}</div>
       </div>
 
       <div className="container mx-auto flex flex-wrap">
