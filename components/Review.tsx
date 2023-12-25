@@ -13,8 +13,8 @@ const Review: FC<Props> = (props) => {
     <>
       <h1 className="text-2xl text-center font-bold my-3">Your Score</h1>
       {props.quizzes.map((quiz, i) => (
-        <div className="flex p-12">
-          <div key={i} className="w-1/4">
+        <div key={i} className="flex p-12">
+          <div className="w-1/4">
             <Image
               src={quiz.coverImage}
               alt=""
