@@ -1,6 +1,6 @@
 import { ALL_TIME_POPULAR, SEASON_ANIME, USER_LISTS } from "@/graphql/queries";
 import { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
-import { MediaSeason, User_ListsQuery } from "@/graphql/generates/graphql";
+import { All_Time_PopularQuery, MediaSeason, Season_AnimeQuery, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
 import { Medium } from "@/types/Medium";
 
@@ -110,7 +110,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
               seasonYear: now.getFullYear(),
             },
           },
-          extractMedium: (data) => data?.Page?.media,
+          extractMedium: (data: Season_AnimeQuery) => data?.Page?.media,
         }}
         setGameProps={props.setGameProps}
       />
@@ -127,7 +127,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
               seasonYear: diffMonth(now, +3).getFullYear(),
             },
           },
-          extractMedium: (data) => data?.Page?.media,
+          extractMedium: (data: Season_AnimeQuery) => data?.Page?.media,
         }}
         setGameProps={props.setGameProps}
       />
@@ -138,7 +138,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
         setSelectedCardId={setSelectedCardId}
         gameProps={{
           query: ALL_TIME_POPULAR,
-          extractMedium: (data) => data?.Page?.media,
+          extractMedium: (data: All_Time_PopularQuery) => data?.Page?.media,
         }}
         setGameProps={props.setGameProps}
       />
@@ -155,7 +155,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
               seasonYear: chosenDate.getFullYear(),
             },
           },
-          extractMedium: (data) => data?.Page?.media,
+          extractMedium: (data: Season_AnimeQuery) => data?.Page?.media,
         }}
         setGameProps={props.setGameProps}
       >
