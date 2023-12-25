@@ -38,8 +38,10 @@ const SelectionBoard: FC<Props> = (props) => {
           >
             {/* もし isAnswered が true なら、
             chosenIndexの選択肢にsvgを表示する */}
-            {props.isAnswered && props.chosenIndex === i && <IconCheckCircle />}
-            {choice.name}
+            <p className="select-none">
+              {props.isAnswered && props.chosenIndex === i && <IconCheckCircle />}
+              {choice.name}
+            </p>
           </div>
         </div>
       ))}
