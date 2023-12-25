@@ -68,7 +68,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
       <h1 className="text-3xl font-bold text-center mt-3">Select Quiz Topic</h1>
 
       <TopicCard
-        cardId="Generate Quizzes From Your Anilist"
+        cardId="Generate Quizzes From Your AniList"
         selectedId={selectedCardId}
         setSelectedCardId={setSelectedCardId}
         gameProps={{
@@ -83,7 +83,7 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
       >
         <input
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 mx-auto p-2.5"
-          placeholder="Your Anilist Username"
+          placeholder="Your AniList Username"
           onChange={(e) => {
             props.setGameProps((prev) => ({
               ...prev,
