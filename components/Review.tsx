@@ -22,7 +22,7 @@ const Review: FC<Props> = (props) => {
               height={500}
               className="mx-auto"
             />
-            {quiz.title}
+            <p className="text-center">{quiz.title}</p>
           </div>
           <div className="w-3/4 ml-5 flex flex-wrap items-center">
             <SelectionBoard
