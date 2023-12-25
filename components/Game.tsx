@@ -31,38 +31,53 @@ const genQuizData = (
   medium: Medium,
   quizNum: number = 10
 ): AnimeStudioQuiz[] => {
-  // nodesが空の要素を除外
-  const medium_with_studio = medium.filter(
-    (element) => element?.studios?.nodes?.length
-  );
+  // randomIndices(medium.length, medium.length)でまず要素をランダムに取得する
+  // 順番に走査して、制作会社一覧の配列が以下の条件を満たす要素をquizNum個取得する
+  // 1. 制作会社の情報がある
+  // 2. studio_names.jsonに存在するstudioのみに絞った時、制作会社一覧配列が空でない
+  const quizData: AnimeStudioQuiz[] = [];
+  const indices = randomIndices(medium.length, medium.length);
+  for (let i = 0; i < indices.length && quizData.length < quizNum; ++i) {
+    const idx = indices[i];
+    const media = medium[idx];
 
-  return narrowRandom(medium_with_studio, quizNum).map((element) => {
-    const correctNames = (element?.studios?.nodes &&
-      element.studios.nodes.map((e) => e?.name)) || ["-"];
-    // element.studios.nodesが複数存在する可能性があるので、
-    // そのどれにも該当しないfakeChoiceをstudioNamesJsonから選ぶ
-    const fakeChoiceData = studioNamesJson.filter(
-      (studioName) => !correctNames.includes(studioName)
-    );
-    // 3つの選択肢をランダムに選び、isCorrectをfalseにして追加
-    const fakeChoices = narrowRandom(fakeChoiceData, 3).map((choice) => ({
-      name: choice,
-      isCorrect: false,
-    }));
+    const studioNames = media?.studios?.nodes?.map((e) => e?.name);
+    if (!studioNames) continue;
 
-    return {
-      title: element?.title?.native ?? "-",
-      coverImage: element?.coverImage?.extraLarge ?? "-",
+    const actualStudioNames = studioNames.filter(
+      (studio) => studio && studioNamesJson.includes(studio)
+    ) as string[];
+    if (actualStudioNames.length === 0) continue;
+
+    const title = media?.title?.native;
+    if (!title) continue;
+
+    const coverImage = media?.coverImage?.extraLarge;
+    if (!coverImage) continue;
+
+    quizData.push({
+      title,
+      coverImage,
       choices: [
         {
-          // 複数のスタジオが関わっている可能性があるので、その中からランダムに1つ選ぶ
-          name: narrowRandom(correctNames, 1)[0] ?? "-",
+          // 制作会社が複数ある場合はその中からランダムに選ぶ
+          name: narrowRandom(actualStudioNames, 1)[0],
           isCorrect: true,
         },
-        ...fakeChoices,
+        ...narrowRandom(
+          studioNamesJson.filter(
+            (studioName) => !actualStudioNames.includes(studioName)
+          ),
+          3
+        ).map((fakeStudioName) => ({
+          name: fakeStudioName,
+          isCorrect: false,
+        })),
       ].sort(() => Math.random() - 0.5),
-    };
-  });
+    });
+  }
+
+  return quizData;
 };
 
 // stateが変わると再度Graphqlのクエリが走ってしまうので、
