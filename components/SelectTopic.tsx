@@ -172,8 +172,8 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
           >
             {/* 1950から現在の年+1までの連続した整数を生成 */}
             {Array.from(
-              { length: new Date().getFullYear() - 1980 + 2 },
-              (_, i) => i + 1980
+              { length: new Date().getFullYear() - 1970 + 2 },
+              (_, i) => i + 1970
             ).map((year) => (
               <option key={year}>{year}</option>
             ))}
