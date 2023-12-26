@@ -1,0 +1,12854 @@
+{
+  "media": [
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          },
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nexus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          },
+          {
+            "name": "TOHO animation STUDIO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "C2C"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bibury Animation Studios"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Yokohama Animation Lab"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ENGI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Platinum Vision"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arvo Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          },
+          {
+            "name": "Sunrise Beyond"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GEEKTOYS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Zero-G"
+          },
+          {
+            "name": "Digital Network Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TYPHOON GRAPHICS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Felix Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TROYCA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Kafka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gokumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Maho Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Silver"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GEEKTOYS"
+          },
+          {
+            "name": "CompTown"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Yostar Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shuka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "PINE JAM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Quad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Jumondou"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "UNEND"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio KAI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          },
+          {
+            "name": "NUT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shirogumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "NUT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio KAI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          },
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "evg"
+          },
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Fugaku"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          },
+          {
+            "name": "Signal.MD"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Asahi Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lesprit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          },
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Signpost"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          },
+          {
+            "name": "REALTHING"
+          },
+          {
+            "name": "KeyEast"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Yumeta Company"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          },
+          {
+            "name": "Satelight"
+          },
+          {
+            "name": "JM animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "APPP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Radix"
+          },
+          {
+            "name": "Studio OX"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "E&G Films"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          },
+          {
+            "name": "Studio Sign"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Vistec Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Kids"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Fantasia"
+          },
+          {
+            "name": "Amber Film Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "JCF"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Radix"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Imagin"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Studio Matrix"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          },
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Vega Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Fantasia"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          },
+          {
+            "name": "G&G Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          },
+          {
+            "name": "Actas"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Matrix"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Planet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          },
+          {
+            "name": "Vistec Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Live"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gallop"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Palm Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Actas"
+          },
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          },
+          {
+            "name": "Studio Live"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "G&G Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Artland"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Asread"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gallop"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "DR Movie"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Karaku"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trinet Entertainment"
+          },
+          {
+            "name": "Picture Magic"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          },
+          {
+            "name": "feel."
+          },
+          {
+            "name": "Studio Flag"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Artland"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Artland"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Palm Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Yumeta Company"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          },
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          },
+          {
+            "name": "BeSTACK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Telecom Animation Film"
+          },
+          {
+            "name": "Shirogumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Minami Machi Bugyousho"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Imagin"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          },
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          },
+          {
+            "name": "Asread"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gallop"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          },
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          },
+          {
+            "name": "Marvy Jack"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          },
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nomad"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GoHands"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GONZO"
+          },
+          {
+            "name": "Picture Magic"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Signpost"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Build"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Daume"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GoHands"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Artland"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hoods Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Plus+"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bridge"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Asread"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Build"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Signpost"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Spirits"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GoHands"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          },
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Actas"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hoods Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ordet"
+          },
+          {
+            "name": "SANZIGEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Studio Gokumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC A.S.T.A."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Build"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Plus+"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC Build"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Asread"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          },
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ZEXCS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gokumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          },
+          {
+            "name": "Orange"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          },
+          {
+            "name": "Bridge"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production IMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          },
+          {
+            "name": "TROYCA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TYO Animations"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Arms"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production IMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Manglobe"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bandai Namco Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shuka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shuka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production IMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          },
+          {
+            "name": "TROYCA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shuka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hoods Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "POLYGON PICTURES"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lay-duce"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shuka"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production IMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Millepensee"
+          },
+          {
+            "name": "GEMBA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio 3Hz"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "NUT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "PINE JAM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Orange"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "NAZ"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TROYCA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Signal.MD"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          },
+          {
+            "name": "C2C"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "EMT Squared"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bandai Namco Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "PINE JAM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Graphinica"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio 3Hz"
+          },
+          {
+            "name": "Actas"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          },
+          {
+            "name": "Studio Blanc"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          },
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          },
+          {
+            "name": "Studio Signpost"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Zero-G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ajiado"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          },
+          {
+            "name": "EGG FIRM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shin-Ei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio 3Hz"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "C-Station"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          },
+          {
+            "name": "Bridge"
+          },
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TROYCA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Geno Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trigger"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ezo’la"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hoods Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Platinum Vision"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "production doA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          },
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Orange"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "diomedéa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          },
+          {
+            "name": "Marvy Jack"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          },
+          {
+            "name": "Asread"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bandai Namco Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CONNECT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Silver"
+          },
+          {
+            "name": "Arvo Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "EMT Squared"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lay-duce"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Platinum Vision"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shin-Ei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ajiado"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GEEKTOYS"
+          },
+          {
+            "name": "Seven"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Encourage Films"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Silver"
+          },
+          {
+            "name": "Arvo Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "C2C"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          },
+          {
+            "name": "A.C.G.T."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "David Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Seven Arcs"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nexus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "PINE JAM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ENGI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "C2C"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "NAZ"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GEEKTOYS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Science SARU"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bridge"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ajiado"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "NUT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Satelight"
+          },
+          {
+            "name": "HORNETS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CygamesPictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Maho Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SynergySP"
+          },
+          {
+            "name": "Shin-Ei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Maho Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ajiado"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Bind"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Brain's Base"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Bind"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "White Fox"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bibury Animation Studios"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kyoto Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          },
+          {
+            "name": "Studio Palette"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Passione"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TNK"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Orange"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          },
+          {
+            "name": "Marvy Jack"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          },
+          {
+            "name": "P.I.C.S."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Millepensee"
+          },
+          {
+            "name": "exsa"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Signal.MD"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ajiado"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ENGI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "REVOROOT"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          },
+          {
+            "name": "Okuruto Noboru"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Okuruto Noboru"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "C2C"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          },
+          {
+            "name": "WAO World"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          },
+          {
+            "name": "Wit Studio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ufotable"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MAPPA"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Wit Studio"
+          },
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "8-bit"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          },
+          {
+            "name": "DR Movie"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nexus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "LIDENFILMS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Lerche"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Doga Kobo"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "CloverWorks"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio 3Hz"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Kinema Citrus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Felix Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Asread"
+          },
+          {
+            "name": "studio MOTHER"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Atelier Pontdarc"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "P.A. Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "studio MOTHER"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "bones"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shin-Ei Animation"
+          },
+          {
+            "name": "SynergySP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Drive"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Yokohama Animation Lab"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "ENGI"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "EMT Squared"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "SILVER LINK."
+          },
+          {
+            "name": "BLADE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio KAI"
+          },
+          {
+            "name": "HORNETS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Staple Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OZ"
+          },
+          {
+            "name": "NAZ"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AXsiZ"
+          },
+          {
+            "name": "Studio Gokumi"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "A-1 Pictures"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Production I.G"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "feel."
+          },
+          {
+            "name": "Gaina"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "GEEKTOYS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "project No.9"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Pastel"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          },
+          {
+            "name": "APPP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Triangle Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Trans Arts"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Movie Shinsha"
+          },
+          {
+            "name": "Telecom Animation Film"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Public & Basic"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Public & Basic"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Triangle Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          },
+          {
+            "name": "Studio Gallop"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "E&G Films"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Radix"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Phoenix Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Magic Bus"
+          },
+          {
+            "name": "Plum"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "KSS"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Hal Film Maker"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Magic Bus"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Genco"
+          },
+          {
+            "name": "Radix"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "APPP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          },
+          {
+            "name": "Genco"
+          },
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Bee Train"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Triangle Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          },
+          {
+            "name": "SPE Visual Works"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Aubec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Knack Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Gainax"
+          },
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "E&G Films"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "TMS Entertainment"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Movie Shinsha"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Xebec"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "OLM"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Hibari"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "AIC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio DEEN"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Movie Shinsha"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Gallop"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "MADHOUSE"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          },
+          {
+            "name": "VAP"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Shaft"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "J.C. Staff"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Junio"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Comet"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Movie Shinsha"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tezuka Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Academy Productions"
+          },
+          {
+            "name": "Group TAC"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          },
+          {
+            "name": "Anime R"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          },
+          {
+            "name": "Kokusai Eigasha"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Ashi Productions"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tokyo Movie Shinsha"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Toei Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Tatsunoko Production"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Sunrise"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Nippon Animation"
+          }
+        ]
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": []
+      }
+    },
+    {
+      "studios": {
+        "nodes": [
+          {
+            "name": "Eiken"
+          }
+        ]
+      }
+    }
+  ]
+}
