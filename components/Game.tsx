@@ -91,6 +91,7 @@ const Game: FC<GameProps> = ({ query, queryParams, extractMedium }) => {
   if (!medium) return "no data"; // other no data UI component
 
   const quizData = genQuizData(medium);
+  if (quizData.length === 0) return "No quiz available"; // other no data UI component
   return <GameBoard quizzes={quizData} />;
 };
 
