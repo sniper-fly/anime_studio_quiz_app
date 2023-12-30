@@ -1,3 +1,13 @@
+# ref
+https://zenn.dev/catallaxy_dev/articles/tailwindcss-create-floating-action-button
+フローティングボタンの実装参考
+
+https://flowbite.com/docs/components/button-group/
+Tailwindの参考サイト
+
+chatGPTの参考になった回答
+https://chat.openai.com/share/b7e559df-a7b2-4507-8863-28d200ad3434
+
 # TODO
 - テストの実装
 
