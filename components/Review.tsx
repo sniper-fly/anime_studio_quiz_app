@@ -2,6 +2,7 @@ import { FC } from "react";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 import Image from "next/image";
 import SelectionBoard from "./SelectionBoard";
+import { useGameModeDispatch } from "./GameModeContext";
 
 type Props = {
   quizzes: AnimeStudioQuiz[];
@@ -9,6 +10,8 @@ type Props = {
 };
 
 const Review: FC<Props> = (props) => {
+  const dispatchGameMode = useGameModeDispatch();
+
   return (
     <>
       {/* floating buttons */}
@@ -21,6 +24,9 @@ const Review: FC<Props> = (props) => {
             Retry
           </button>
           <button
+            onClick={() => {
+              dispatchGameMode("selectingTopic");
+            }}
             type="button"
             className="px-6 py-3.5 text-base font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center hover:scale-105"
           >
