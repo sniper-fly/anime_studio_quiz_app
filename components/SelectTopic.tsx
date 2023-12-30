@@ -3,6 +3,7 @@ import { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
 import { All_Time_PopularQuery, MediaSeason, Season_AnimeQuery, User_ListsQuery } from "@/graphql/generates/graphql";
 import { GameProps } from "@/types/GameProps";
 import { Medium } from "@/types/Medium";
+import { useGameModeDispatch } from "./GameModeContext";
 
 const diffMonth = (date: Date, diffMonth: number): Date => {
   const resultDate = date;
@@ -55,11 +56,11 @@ const TopicCard: FC<TopicCardProps> = (props) => {
 };
 
 type SelectTopicProps = {
-  setGameMode: (gameMode: string) => void;
   setGameProps: Dispatch<SetStateAction<GameProps>>;
 };
 
 const SelectTopic: FC<SelectTopicProps> = (props) => {
+  const dispatchGameMode = useGameModeDispatch();
   const [selectedCardId, setSelectedCardId] = useState<string>("");
   const [chosenDate, setChosenDate] = useState<Date>(new Date());
   const now = new Date();
@@ -197,7 +198,8 @@ const SelectTopic: FC<SelectTopicProps> = (props) => {
       {selectedCardId !== "" && (
         <div
           onClick={() => {
-            props.setGameMode("playing");
+            console.log('hoge')
+            dispatchGameMode("playing");
           }}
           className=" mt-10 text-center rounded-lg md:w-1/3 w-2/3 bg-green-300 p-4 hover:scale-105 "
         >
