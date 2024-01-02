@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useState, useRef } from "react";
 import QuizBoard from "./QuizBoard";
 import { AnimeStudioQuiz } from "../types/AnimeStudioQuiz";
 import useSound from "use-sound";
@@ -17,7 +17,7 @@ const GameBoard: FC<Props> = ({ quizzes }) => {
   const [chosenIndices, setChosenIndices] = useState<number[]>([]);
   // 解答前、解答後の選択肢の色を変えるためのstate
   const [isAnswered, setIsAnswered] = useState(false);
-  const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+  const timerIdRef = useRef<NodeJS.Timeout | undefined>(undefined);
 
   // 音声の再生
   const [playAtari] = useSound(atariSound);
@@ -35,21 +35,23 @@ const GameBoard: FC<Props> = ({ quizzes }) => {
     };
 
     if (isAnswered) {
-      if (timerId) {
-        clearTimeout(timerId);
-        setTimerId(null);
-      }
+      // すでに解答済みの場合にクリックされたら、タイマーをキャンセルして次の問題へ
+      clearTimeout(timerIdRef.current);
+      timerIdRef.current = undefined;
       goNext();
     } else {
       setIsAnswered(true);
       setChosenIndices([...chosenIndices, idx]);
+
       if (quizzes[questionNum - 1].choices[idx].isCorrect) {
         playAtari();
       } else {
         playHazure();
       }
+
+      // 何もアクションがなければ、1.2秒後に次の問題へ
       const id = setTimeout(goNext, 1200);
-      setTimerId(id);
+      timerIdRef.current = id;
     }
   };
 
